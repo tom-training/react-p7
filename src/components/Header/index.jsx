@@ -20,7 +20,7 @@ function Header(props) {
   return (
     <nav>
 
-      <Link to="/react-p7">
+      <Link to="/react-p7/">
         <img alt="logo de kasa" src={Logo} className={HeaderCSS.logo} />
       </Link>
 
@@ -28,11 +28,11 @@ function Header(props) {
 
         {accueil ?(
           
-          <StyledLink to="/react-p7" className={HeaderCSS.lien} surlignage={"underline"}>Accueil</StyledLink>
+          <StyledLink to="/react-p7/" className={HeaderCSS.lien} surlignage={"underline"}>Accueil</StyledLink>
         
         ):(
           
-          <StyledLink to="/react-p7" className={HeaderCSS.lien} surlignage={"none"}>Accueil</StyledLink>
+          <StyledLink to="/react-p7/" className={HeaderCSS.lien} surlignage={"none"}>Accueil</StyledLink>
           
         )        
         } 

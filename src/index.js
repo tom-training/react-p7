@@ -20,7 +20,7 @@ root.render(
   
       <Routes>
         
-        <Route path="/react-p7" element={<Home />} />
+        <Route path="/react-p7/" element={<Home />} />
 
         <Route path="/react-p7/card/:id" element={<Card />} />
 
