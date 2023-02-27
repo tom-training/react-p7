@@ -14,7 +14,7 @@ root.render(
   
       <Routes>
         
-        <Route path="/" element={<Home />} />
+        <Route path="/react-p7" element={<Home />} />
       
       </Routes>
 
