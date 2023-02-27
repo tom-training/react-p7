@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-p7/static/css/main.9b651371.css",
-    "main.js": "/react-p7/static/js/main.2fbcc26d.js",
+    "main.js": "/react-p7/static/js/main.141a3860.js",
     "static/js/787.f24801de.chunk.js": "/react-p7/static/js/787.f24801de.chunk.js",
     "static/media/BannerSloganMob.svg": "/react-p7/static/media/BannerSloganMob.159d69c8cac82732199930e2e78c6b65.svg",
     "static/media/Banner.png": "/react-p7/static/media/Banner.93ebd71e7db164475d9a.png",
@@ -13,11 +13,11 @@
     "static/media/arrowbck.svg": "/react-p7/static/media/arrowbck.cdd03842d31401ee166dc7512d262702.svg",
     "static/media/arrowfd.svg": "/react-p7/static/media/arrowfd.56557f942edffe00a45e68dee308575a.svg",
     "main.9b651371.css.map": "/react-p7/static/css/main.9b651371.css.map",
-    "main.2fbcc26d.js.map": "/react-p7/static/js/main.2fbcc26d.js.map",
+    "main.141a3860.js.map": "/react-p7/static/js/main.141a3860.js.map",
     "787.f24801de.chunk.js.map": "/react-p7/static/js/787.f24801de.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9b651371.css",
-    "static/js/main.2fbcc26d.js"
+    "static/js/main.141a3860.js"
   ]
 }
