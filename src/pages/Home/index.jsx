@@ -29,7 +29,7 @@ function Home() {
               })
         .catch((error)=> console.log(error))
 
-    }, [])
+    }, [appartData])
 
     return (
       <div className={HomeCSS.homeCadre}>
