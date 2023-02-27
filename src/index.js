@@ -3,6 +3,12 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Footer from './components/Footer'
+import Apropos from './pages/Apropos'
+import Error from './pages/Error'
+
+import Card from './pages/Card'
+
+
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
@@ -14,7 +20,15 @@ root.render(
   
       <Routes>
         
-        <Route path="/" element={<Home />} />
+        <Route path="/react-p7/" element={<Home />} />
+
+        <Route path="/react-p7/card/:id" element={<Card />} />
+
+        <Route path="/react-p7/a_propos/" element={<Apropos />} />
+
+        <Route path="/react-p7/error/" element={<Error />} />
+
+        <Route path="." element={<Error />} />
       
       </Routes>
 

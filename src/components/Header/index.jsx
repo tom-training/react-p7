@@ -28,22 +28,22 @@ function Header(props) {
 
         {accueil ?(
           
-          <StyledLink to="/" className={HeaderCSS.lien} surlignage={"underline"}>Accueil</StyledLink>
+          <StyledLink to="/react-p7/" className={HeaderCSS.lien} surlignage={"underline"}>Accueil</StyledLink>
         
         ):(
           
-          <StyledLink to="/" className={HeaderCSS.lien} surlignage={"none"}>Accueil</StyledLink>
+          <StyledLink to="/react-p7/" className={HeaderCSS.lien} surlignage={"none"}>Accueil</StyledLink>
           
         )        
         } 
 
         {aprop ?(
           
-          <StyledLink to="/a_propos" className={HeaderCSS.lien} surlignage={"underline"}>A propos</StyledLink>
+          <StyledLink to="/react-p7/a_propos" className={HeaderCSS.lien} surlignage={"underline"}>A propos</StyledLink>
           
         ):(
           
-          <StyledLink to="/a_propos" className={HeaderCSS.lien} surlignage={"none"}>A propos</StyledLink>
+          <StyledLink to="/react-p7/a_propos" className={HeaderCSS.lien} surlignage={"none"}>A propos</StyledLink>
           
         )        
         } 
