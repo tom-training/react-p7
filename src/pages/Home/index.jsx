@@ -16,8 +16,6 @@ function Home() {
 
   const [isDataLoading, setDataLoading] = useState(false)  
 
-
-
   useEffect(() => {    
 
     

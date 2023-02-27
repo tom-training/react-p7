@@ -14,15 +14,13 @@ root.render(
   
       <Routes>
         
-        <Route path="/react-p7" element={<Home />} />
+        <Route path="/" element={<Home />} />
       
       </Routes>
 
       <Footer />
 
     </Router>  
-
-
 
   </React.StrictMode>
 );
