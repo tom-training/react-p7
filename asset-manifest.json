@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-p7/static/css/main.963a31a7.css",
-    "main.js": "/react-p7/static/js/main.417a2656.js",
-    "static/js/787.f24801de.chunk.js": "/react-p7/static/js/787.f24801de.chunk.js",
-    "static/media/BannerSloganMob.svg": "/react-p7/static/media/BannerSloganMob.159d69c8cac82732199930e2e78c6b65.svg",
-    "static/media/Banner.png": "/react-p7/static/media/Banner.93ebd71e7db164475d9a.png",
-    "static/media/LOGO.svg": "/react-p7/static/media/LOGO.ac38b36ec692f2f5731bc84c1ac2030e.svg",
-    "index.html": "/react-p7/index.html",
-    "main.963a31a7.css.map": "/react-p7/static/css/main.963a31a7.css.map",
-    "main.417a2656.js.map": "/react-p7/static/js/main.417a2656.js.map",
-    "787.f24801de.chunk.js.map": "/react-p7/static/js/787.f24801de.chunk.js.map"
+    "main.css": "/static/css/main.963a31a7.css",
+    "main.js": "/static/js/main.c9f11161.js",
+    "static/js/787.f24801de.chunk.js": "/static/js/787.f24801de.chunk.js",
+    "static/media/BannerSloganMob.svg": "/static/media/BannerSloganMob.159d69c8cac82732199930e2e78c6b65.svg",
+    "static/media/Banner.png": "/static/media/Banner.93ebd71e7db164475d9a.png",
+    "static/media/LOGO.svg": "/static/media/LOGO.ac38b36ec692f2f5731bc84c1ac2030e.svg",
+    "index.html": "/index.html",
+    "main.963a31a7.css.map": "/static/css/main.963a31a7.css.map",
+    "main.c9f11161.js.map": "/static/js/main.c9f11161.js.map",
+    "787.f24801de.chunk.js.map": "/static/js/787.f24801de.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.963a31a7.css",
-    "static/js/main.417a2656.js"
+    "static/js/main.c9f11161.js"
   ]
 }
