@@ -14,6 +14,8 @@ root.render(
   
       <Routes>
 
+        <header />
+
         
         <Route path="/" element={<Home />} />
       
