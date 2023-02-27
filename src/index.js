@@ -13,9 +13,6 @@ root.render(
     <Router>
   
       <Routes>
-
-        <header />
-
         
         <Route path="/" element={<Home />} />
       
