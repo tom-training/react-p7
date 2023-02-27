@@ -20,13 +20,13 @@ root.render(
   
       <Routes>
         
-        <Route path="/react-p7/" element={<Home />} />
+        <Route path="/react-p7" element={<Home />} />
 
         <Route path="/react-p7/card/:id" element={<Card />} />
 
-        <Route path="/react-p7/a_propos/" element={<Apropos />} />
+        <Route path="/react-p7/a_propos" element={<Apropos />} />
 
-        <Route path="/react-p7/error/" element={<Error />} />
+        <Route path="/react-p7/error" element={<Error />} />
 
         <Route path="." element={<Error />} />
       

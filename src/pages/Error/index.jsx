@@ -16,7 +16,7 @@ function Error() {
 
                 <p className={ErrorCSS.texteError}> Oups! La page que vous demandez n'existe pas. </p>
 
-                <Link to="/react-p7/" className={ErrorCSS.lien}>Retourner sur la page d'accueil</Link>
+                <Link to="/react-p7" className={ErrorCSS.lien}>Retourner sur la page d'accueil</Link>
 
             </div>
             
