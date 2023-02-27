@@ -1,0 +1,264 @@
+@media (max-width: 575.98px){
+
+    @keyframes apparition{
+        0%{
+            opacity: 0;
+        }
+    
+        25%{
+            opacity: 0.25;
+        }
+    
+        50%{
+            opacity: .5;
+        }
+    
+        75%{
+            opacity: .75;
+        }
+        100%{
+            opacity: 1;
+            z-index: 1;
+        }
+    }
+    
+    
+    @keyframes titel {
+        0%{
+            transform: scaleX(0);
+            opacity: 0;
+        }
+        
+        100%{
+            transform: scaleX(1);
+            opacity: 1;
+        }
+    }
+        
+    
+    @keyframes barDeProgressionOrange{
+    
+        0%{
+            transform: scaleX(0);
+            opacity: 0;
+        }
+    
+        100%{
+            transform: scaleX(1);
+            opacity: 1;
+        }
+    }
+    
+    @keyframes barDeProgressionGrey{
+    
+        0%{
+            opacity: 1;
+        }
+    
+        100%{
+            opacity: 0.5;
+        }
+    }
+    
+    
+    .launcher{
+        width: 100%;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        animation: disparition 3000ms 2500ms;
+        animation-fill-mode: forwards;
+        margin-bottom: 5%;
+    }
+    
+    .launcherTitre{
+        margin-bottom: 3%;
+        font-weight: bold;
+        font-size: 1.2em;
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+    
+    .launcherTitre__text{
+        color: #FF6060;
+        margin-right: 3%;
+        transform-origin: 0% 50%;
+        animation: titel 500ms;
+        animation-fill-mode: backwards;
+    }
+    
+    
+    .progressBar{
+        position: relative;
+        margin-bottom: 3%;
+        width: 60%;
+        height: 2px;
+    }            
+    
+    .progressBar__grey{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        border: 2px solid #FF6060;
+        background-color: #FF6060;
+        height: 100%;
+        width: 100%;
+        animation: barDeProgressionGrey 1000ms;
+        animation-fill-mode: forwards;
+    }
+    
+    .progressBar__orange{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        border: 2px solid #FF6060;
+        background-color: #FF6060;
+        height: 100%;
+        width: 100%;
+        transform-origin: 0% 50%;
+        animation: barDeProgressionOrange 1000ms 1000ms;
+        animation-fill-mode: backwards;
+    }
+            
+    .launcherCountdown{
+        color: #FF6060;
+        font-weight: lighter;
+    }
+        
+}
+
+@media (min-width: 575.99px){
+
+    @keyframes apparition{
+        0%{
+            opacity: 0;
+        }
+
+        25%{
+            opacity: 0.25;
+        }
+
+        50%{
+            opacity: .5;
+        }
+
+        75%{
+            opacity: .75;
+        }
+        100%{
+            opacity: 1;
+            z-index: 1;
+        }
+    }
+
+    @keyframes titel {
+        0%{
+            transform: scaleX(0);
+            opacity: 0;
+        }
+        
+        100%{
+            transform: scaleX(1);
+            opacity: 1;
+        }
+    }
+
+    @keyframes barDeProgressionOrange{
+
+        0%{
+            transform: scaleX(0);
+            opacity: 0;
+        }
+
+        100%{
+            transform: scaleX(1);
+            opacity: 1;
+        }
+    }
+
+    @keyframes barDeProgressionGrey{
+
+        0%{
+            opacity: 1;
+        }
+
+        100%{
+            opacity: 0.5;
+        }
+    }
+
+    .launcher{
+        width: 100%;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        animation: disparition 3000ms 2500ms;
+        animation-fill-mode: forwards;
+        margin-bottom: 5%;
+    }
+
+    .launcherTitre{
+        margin-bottom: 3%;
+        font-weight: bold;
+        font-size: 1.2em;
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .launcherTitre__text{
+        color: #FF6060;
+        margin-right: 3%;
+        transform-origin: 0% 50%;
+        animation: titel 500ms;
+        animation-fill-mode: backwards;
+    }
+
+    .progressBar{
+        position: relative;
+        margin-bottom: 3%;
+        width: 60%;
+        height: 2px;
+    }            
+
+    .progressBar__grey{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        border: 2px solid #FF6060;
+        background-color: #FF6060;
+        height: 100%;
+        width: 100%;
+        animation: barDeProgressionGrey 1000ms;
+        animation-fill-mode: forwards;
+    }
+
+    .progressBar__orange{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        border: 2px solid #FF6060;
+        background-color: #FF6060;
+        height: 100%;
+        width: 100%;
+        transform-origin: 0% 50%;
+        animation: barDeProgressionOrange 1000ms 1000ms;
+        animation-fill-mode: backwards;
+    }
+            
+    .launcherCountdown{
+        color: #FF6060;
+        font-weight: lighter;
+    }
+}

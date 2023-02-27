@@ -1,0 +1,47 @@
+@media (max-width: 575.98px) {
+
+    .cadreApropos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sectionCollapses{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5% 0 2% 0;
+        width: 340px;
+    }
+    
+    .lesBlocs{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (min-width: 575.99px){
+
+    .sectionCollapses{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2%;
+        padding: 2% 0 2% 0;
+    }
+    
+    .lesBlocs{
+        width: 80%;
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+
+
+
+
+
+

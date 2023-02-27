@@ -1,0 +1,293 @@
+@media (max-width: 575.98px) {
+
+    .cardCadre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .leCadre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    
+    .leCadrePhoto{
+        width: 335px;
+        height: 255px;
+        position: relative;
+    }
+    
+    .photoStyle{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        object-fit: cover;
+        margin: 0;
+        padding: 0;
+        border-radius: 25px;    
+    }
+    
+    .arrowleftStyle{
+        position: absolute;
+        left: 0;
+        top: 40%;
+        z-index: 1;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .arrowrightStyle{
+        position: absolute;
+        right: 0;
+        top: 40%;
+        z-index: 1;
+        margin: 0;
+        padding: 0;       
+    }
+    
+    .chiffragePhoto{
+        color: white;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-bottom: 3%;
+        z-index: 1;
+    }
+    
+    .blocIntermediaire{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 90%;
+        margin-bottom: 5%; 
+    }
+    
+    .titleLocTago{
+        height: 100%;
+        margin-top: 3%;
+    }
+    
+    .propLeRating{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .titleStyle{
+        color: #FF6060;
+        margin-bottom: 3%;
+        font-size: 1.2em;
+    }
+    
+    .locationStyle{
+        color: #FF6060;
+        margin-bottom: 3%; 
+    }
+    
+    .lesTags{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+        font-size: 0.9em;
+    }
+    
+    .leTag{
+        margin: 0 5px 5px 0;
+        padding: 1px 10px 1px 10px;
+        background-color: #FF6060;
+        border-radius: 10px;
+        color: white;
+    }
+    
+    .propStyle{
+        color: #FF6060;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 50%;       
+    }
+    
+    .propName{
+        max-width: 40px;
+        text-align: right;
+        font-size: 1em; 
+        margin-right: 10px;
+        display: flex;
+        justify-content: flex-end;     
+    }
+    
+    .propPix{
+        border-radius: 50%;
+        background-color: #C4C4C4;
+        width: 40px;
+        height: 40px;   
+    }
+    
+    .leRating{
+        display: flex;
+        justify-items: center;
+        margin: 0;
+    }
+
+    .starImg{
+        width: 20px;
+    }
+    
+    .lesDeuxBlocs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 90%;
+    }
+}
+
+@media (min-width: 575.99px){
+
+    .leCadre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+
+    .leCadrePhoto{
+        width: 1240px;
+        height: 415px;
+        position: relative;
+    }
+
+    .photoStyle{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        object-fit: cover;
+        margin: 0;
+        padding: 0;
+        border-radius: 25px;
+    }
+
+    .arrowleftStyle{
+        position: absolute;
+        left: 0;
+        top: 40%;
+        z-index: 1;
+        margin: 0;
+        padding: 0;
+    }
+
+    .arrowrightStyle{
+        position: absolute;
+        right: 0;
+        top: 40%;
+        z-index: 1;
+        margin: 0;
+        padding: 0;
+    }
+
+    .chiffragePhoto{
+        color: white;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-bottom: 3%;
+        z-index: 1;
+    }
+
+    .blocIntermediaire{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin-bottom: 2%;
+    }
+
+    .titleLocTago{
+        height: 100%;
+    }
+
+    .titleStyle{
+
+        color: #FF6060;
+        margin: 2% 0 2% 0;
+        font-size: 2em;
+    }
+
+    .locationStyle{
+        color: #FF6060;
+        margin-bottom: 2%;
+    }
+
+    .lesTags{
+        display: flex;
+        justify-content: flex-start;
+        padding: 0;
+        margin: 0;
+    }
+
+    .leTag{
+        display: flex;
+        align-items: center;
+        margin-right: 5px;
+        padding: 2px 7% 2px 7%;
+        background-color: #FF6060;
+        border-radius: 10px;
+        color: white;
+    }
+
+    .propStyle{
+        color: #FF6060;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;   
+    }
+
+    .propName{
+        max-width: 40px;
+        display: flex;
+        justify-content: flex-end;
+        text-align: end;
+    }
+
+    .propPix{
+        border-radius: 50%;
+        background-color: #C4C4C4;
+        width: 64px;
+        height: 64px;
+    }
+
+    .leRating{
+        display: flex;
+        justify-items: center;
+    }
+
+    .starImg{
+        width: 25px;
+    }
+
+    .lesDeuxBlocs{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 90%;
+    }
+}
+
+
+

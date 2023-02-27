@@ -1,0 +1,58 @@
+@media (max-width: 575.98px){
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #FF6060;
+        padding: 2px 0 2px 0;
+        margin: 5px 0 5px 0;
+        width: 340px;    
+    }
+      
+    .lesLiens{
+        display: flex;
+        justify-content: space-between;
+        width: 45%;
+    }
+
+    .lien{
+        color: #FF6060;
+    }
+
+    .logo{
+        max-width: 100px;
+    }
+
+}
+
+@media (min-width: 575.99px){
+
+    nav{
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #FF6060;
+        margin: 0 2% 0 2%;
+    }
+
+    .lesLiens{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 2% 0 2%;
+        width: 20%;
+    }
+      
+    
+    .lien{
+        color: #FF6060;
+        margin-left: 10px;
+    }
+}
+
+
+
+
+
+
